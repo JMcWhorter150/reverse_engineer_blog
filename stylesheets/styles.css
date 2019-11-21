@@ -34,7 +34,12 @@ th {
     text-align: right;
 }
 
-.odd-row {
+tr:hover td {
+    /* color: white; */
+    /* font-size: 2.2em; */
+}
+
+.odd-row, tr:hover {
     background-color: #f9f9f9;
 }
 
