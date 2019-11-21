@@ -67,4 +67,21 @@ ul {
 
 ul a {
     text-transform: uppercase;
+    color: #57ad68;
+}
+
+ul a:link, ul a:visited {
+    color:#57ad68;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+li  {
+    padding: 10px 0 2px 3px;
+    display: block;
+    /* outline: 1px solid red; */
 }
