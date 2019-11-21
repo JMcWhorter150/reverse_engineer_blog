@@ -1,8 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     /* background-image: url(../images/snow-covered-mountain-during-sunrise-618833.jpg); */
     font-family: 'Tajawal', sans-serif;
 }
 
+.container {
+    display: flex;
+    justify-content: space-around;
+}
  /* * {
     color: rgba(8, 8, 8, 0.774);
     /* color: #000000; */
@@ -84,4 +92,26 @@ li  {
     padding: 10px 0 2px 3px;
     display: block;
     /* outline: 1px solid red; */
+}
+
+.main-content {
+    width: 66%;
+    border: 1px solid orange;
+}
+
+.sidebar {
+    width: 30%;
+    max-width: 190px;
+    border: 1px solid red;
+}
+
+header{
+    height: 60px;
+    background-color: #333333;
+    margin-bottom: 12px;
+}
+
+.logo {
+    width: 357px;
+    height: 58px
 }
