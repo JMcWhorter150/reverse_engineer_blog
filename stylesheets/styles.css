@@ -11,6 +11,13 @@ html {
     display: flex;
     justify-content: space-around;
 }
+
+header {
+    display: block;
+    height: 60px;
+    background-color: #333333;
+    margin-bottom: 12px;
+}
  /* * {
     color: rgba(8, 8, 8, 0.774);
     /* color: #000000; */
@@ -37,6 +44,10 @@ th {
 
 th, td {
     padding: 7px;
+}
+
+tr {
+    color: #5d5d5d;
 }
 
 .column-1 {
@@ -105,13 +116,14 @@ li  {
     border: 1px solid red;
 }
 
-header{
-    height: 60px;
-    background-color: #333333;
-    margin-bottom: 12px;
-}
-
 .logo {
     width: 357px;
     height: 58px
+}
+
+.icon{
+    height: 50px;
+    max-width: 35px;
+    float: right;
+    padding: 4px 4px 0 0;
 }
