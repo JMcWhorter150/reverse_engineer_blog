@@ -39,10 +39,10 @@ th, td {
     text-align: right;
 }
 
-tr:hover td {
+/* tr:hover td { */
     /* color: white; */
     /* font-size: 2.2em; */
-}
+/* } */
 
 .odd-row, tr:hover {
     background-color: #f9f9f9;
@@ -50,4 +50,21 @@ tr:hover td {
 
 .even-row {
     background-color: #ffffff;
+}
+
+.sidebar-heading {
+    text-transform: uppercase;
+}
+
+a {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul a {
+    text-transform: uppercase;
 }
