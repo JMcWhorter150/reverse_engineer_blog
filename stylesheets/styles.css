@@ -14,6 +14,7 @@ html {
 
 header {
     display: block;
+    justify-content: space-around;
     height: 60px;
     background-color: #333333;
     margin-bottom: 12px;
@@ -101,7 +102,6 @@ ul a:hover {
 
 li  {
     padding: 10px 0 2px 3px;
-    display: block;
     /* outline: 1px solid red; */
 }
 
@@ -121,9 +121,26 @@ li  {
     height: 58px
 }
 
-.icon{
+.icon:hover{
     height: 50px;
     max-width: 35px;
     float: right;
     padding: 4px 4px 0 0;
+    border: 1px solid red;
+}
+
+.menu-simple-container {
+    /* float: right; */
+}
+
+.menu-simple-container ul {
+    float: right;
+    border: 1px solid red;
+}
+
+.menu-simple-container ul li {
+    color: white;
+    font: 1em;
+    margin: -6px 0 0 -1px;
+    padding: 26px 12px 24px;
 }
